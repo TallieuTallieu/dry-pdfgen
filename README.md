@@ -1,5 +1,5 @@
 # dry-pdfgen
-## Generate pdf's from templates
+## Generate pdf's
 
 #### Installation
 ```ssh

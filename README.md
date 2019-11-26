@@ -1,5 +1,5 @@
 # dry-pdfgen
-## Generate pdf's
+## Generate PDF-documents from HTML markup
 
 dry-pdfgen uses Dompdf in the background. For more info on Dompdf check out their Github repository: https://github.com/dompdf/dompdf
 

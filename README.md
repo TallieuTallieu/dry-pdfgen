@@ -6,12 +6,25 @@
 composer require reinvanoyen/dry-pdfgen
 ```
 
+#### Register the service provider
+```php
+<?php
+
+$app = new \Oak\Application();
+
+$app->register([
+    \Tnt\PdfGen\PdfGenServiceProvider::class,
+]);
+
+$app->bootstrap();
+```
+
 #### Basic usage
 
 ```php
 <?php
 
-$pdfGenerator = $container->get(PdfGenerator::class);
+$pdfGenerator = $app->get(PdfGenerator::class);
 $pdfGenerator->fromHtml('<strong>This is an example</strong>');
 
 // Stream the pdf

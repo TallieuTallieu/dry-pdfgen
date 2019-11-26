@@ -1,6 +1,8 @@
 # dry-pdfgen
 ## Generate pdf's
 
+dry-pdfgen uses Dompdf in the background. For more info on Dompdf check out their Github repository: https://github.com/dompdf/dompdf
+
 #### Installation
 ```ssh
 composer require reinvanoyen/dry-pdfgen

@@ -5,7 +5,7 @@ dry-pdfgen uses Dompdf in the background. For more info on Dompdf check out thei
 
 #### Installation
 ```ssh
-composer require reinvanoyen/dry-pdfgen
+composer require tallieutallieu/dry-pdfgen
 ```
 
 #### Register the service provider

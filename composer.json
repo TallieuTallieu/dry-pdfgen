@@ -1,9 +1,9 @@
 {
-  "name": "reinvanoyen/dry-pdfgen",
+  "name": "tallieutallieu/dry-pdfgen",
   "description": "Generate PDFs using Dompdf",
   "type": "library",
   "require": {
-    "reinvanoyen/oak": "^1.0.8",
+    "tallieutallieu/oak": "^1.0.8",
     "dompdf/dompdf": "^0.8.3"
   },
   "autoload": {

@@ -3,7 +3,7 @@
   "description": "Generate PDFs using Dompdf",
   "type": "library",
   "require": {
-    "tallieutallieu/oak": "^1.0.8",
+    "tallieutallieu/oak": "^1.0 | ^1.1",
     "dompdf/dompdf": "^0.8.3"
   },
   "autoload": {
